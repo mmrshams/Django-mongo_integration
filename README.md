@@ -17,7 +17,8 @@ To run this project with django development server, just go to project folder an
 
 and visit http://localhost:8000/api/ url, where you'll find the root of your REST api.
 
-#Project structure
+# Project structure
+
 The toplevel directory contains a single django project
 , Within it there are a per-project folder called project, where global settings are stored, and one django app, djanog_app.
   app contains several API endpoints and demonstrating DRF-Mongoengine capabilities for storing as ODM.
