@@ -79,11 +79,13 @@ WSGI_APPLICATION = 'django_mongo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+# please dont set database for working with mongodb
 DATABASES = {
     # Database setting
 
 }
 
+# mongodb database setting
 mongoengine.connect(
     db="tools",
     host="localhost"
