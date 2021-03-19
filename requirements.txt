@@ -1,5 +1,5 @@
 django==2.1
-djangorestframework==3.9.0
+djangorestframework==3.11.2
 mongoengine==0.9
 pymongo==2.7
 django-rest-framework-mongoengine
